@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .thumbnail{
+        background-color: gray;
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:5px solid black;
+      }
+      .thumbnail.round{
+        border-radius: 20%;
+      }
+      .thumbnail.circle{
+        border-radius: 100%
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thumbnail" style="background-image:url('cording.jpg')"></div>
+    <div class="thumbnail round" style="background-image:url('cording.jpg')">
+    </div>
+    <div class="thumbnail circle" style="background-image:url('cording.jpg')">
+    </div>
+    <img src="cording.jpg" alt="">
+  </body>
+</html>
